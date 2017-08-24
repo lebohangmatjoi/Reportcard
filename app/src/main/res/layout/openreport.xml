@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/keyy"
+    tools:context="com.tabian.saveanddisplaysql.OpenReport">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Card"
+        android:textColor="#B097C1"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="PHUMULANI SECONDARY SCHOOL"
+        android:textColor="#7362A6"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="#8A3D5D"
+        android:paddingLeft="10dp"
+        android:text="OPEN REPORT"
+        android:textColor="#B097C1"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
